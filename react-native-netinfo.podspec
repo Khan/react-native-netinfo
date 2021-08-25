@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platforms    = { :ios => "9.0", :tvos => "9.2", :osx => "10.14" }
 
-  s.source       = { :git => "https://github.com/Khan/react-native-netinfo.git", :tag => "react-native-community-netinfo-v5.9.3-khan-changes-gitpkg" }
+  s.source       = { :git => "https://github.com/Khan/react-native-netinfo.git", :tag => "react-native-community-netinfo-v5.9.3.1-pod-gitpkg" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
